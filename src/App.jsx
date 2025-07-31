@@ -1,0 +1,12 @@
+import { useState } from "react";
+import Counter from "./components/Counter";
+
+const App = () => {
+  return (
+    <div className="bg-cyan-100 min-h-screen flex justify-center items-center">
+      <Counter />
+    </div>
+  );
+};
+
+export default App;
